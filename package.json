@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "JavaScript",
+    "Jest",
+    "Supertest",
+    "Allure"
+  ],
+  "author": "Ibrahim Kaya",
+  "license": "ISC",
+  "name": "javascript.supertest.jest.api",
+  "version": "1.0.0",
+  "description": "Supertest API Test Automation by using JavaScript and Jest",
+  "scripts": {
+    "test": "jest",
+    "report:generate": "allure generate allure-results --clean -o allure-report",
+    "report:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.32.0",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "jest-allure-reporter": "^1.2.3",
+    "jest-html-reporter": "^3.10.2",
+    "jest-html-reporters": "^3.1.7",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.0.0"
+  }
+}

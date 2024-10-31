@@ -1,0 +1,11 @@
+# Dictionary
+/.idea/
+/.vscode/
+/node_modules/
+/reports/
+/allure-results/
+/allure-report/
+
+# Extensions
+*.log
+*.logs
