@@ -21,6 +21,13 @@ module.exports = {
       .set('Content-Type', 'application/json');
   },
 
+  async patch(endpoint, data) {
+    return request(baseUrl)
+      .patch(endpoint)
+      .send(data)
+      .set('Content-Type', 'application/json');
+  },
+
   async delete(endpoint) {
     return request(baseUrl).delete(endpoint);
   },
