@@ -1,2 +1,2 @@
 // tests/setup/jest.setup.js
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
